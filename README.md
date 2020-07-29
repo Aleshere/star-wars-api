@@ -15,6 +15,5 @@
 
 ## About
 
-* I retrieved an old canvas I made a few weeks ago, that had a dynamic background recreating the stars warp movement from the OG Star Wars movies.
-* I then added a very simple API structured app, which displays a few information after clicking of a "Find" btn. Used Math Random to randomize api calls
+* I retrieved an old canvas I made a few weeks ago, that had a dynamic background recreating the stars warp movement from the OG Star Wars movies.  I then added a very simple API structured app, which displays a few information after clicking of a "Find" btn. Used Math Random to randomize api calls
 * Project status: working
