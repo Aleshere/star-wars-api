@@ -12,7 +12,7 @@ function getInfo(){
 
     let randomNumber = Math.floor((Math.random() * 88) + 1)
 
-    let API_URL = (`https://swapi.dev/api/people/${randomNumber}`)
+    let API_URL = (`https://swapi.dev/api/people/${randomNumber}/`)
 
     axios.get(API_URL)
     .then(response => {
