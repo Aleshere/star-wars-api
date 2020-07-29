@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text-box {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+    word-spacing: 12px;
+    text-transform: uppercase;
+    color:rgb(238, 238, 238);
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+  .button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left:20px;
+    margin-right:20px;
+    word-spacing: normal;
+    letter-spacing: 5px;
+    color:rgb(238, 238, 238);
+    text-transform: uppercase;
+    border: 1px solid white;
+    background: black;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+  }
+
+  .button:hover {
+      background: darkgoldenrod;
+  }
+
+  .info-container {
+      width: 680px;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid darkgoldenrod;
+      border-radius: 5px;
+  }
