@@ -4,7 +4,6 @@ let height = document.querySelector('#height');
 let mass = document.querySelector('#mass');
 let birthYear = document.querySelector('#birth-year');
 
-console.log(birthYear);
 
 
 function getInfo(){
